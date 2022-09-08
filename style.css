@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #030204, #4a1359);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100vh;
+    overflow-y: hidden;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    
+}
+.container-card{
+    width: 500px;
+    height: 300px;
+    background-color:rgba(189, 157, 216, 0.1);
+    border: 1px solid #4a4a4a ;
+    box-shadow: 1px 2px rgb(189, 157, 216);;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 25px;
+    margin: 10% auto;
+    cursor: pointer;
+   color: #efefef;
+
+}
+.container-card:hover{
+   
+}
+.container-bbva{
+    margin: 1rem 2rem;
+}
+.container-bbva img ,
+.container-logo-visa img{
+    width: 100px;
+    height: 100px;
+}
+
+.container-numeros p{
+    font-size:2rem ;
+    text-align: start;
+    padding-left: 1.5rem;
+}
+/* footer */
+.container-footer-datos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 3rem;
+}
