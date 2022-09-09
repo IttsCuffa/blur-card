@@ -70,12 +70,32 @@ body{
     margin: 10% auto;
     cursor: pointer;
    color: #efefef;
-  
+ 
+   animation: giroEntero alternate 1s 1,levitarCard alternate  ease-in infinite;
+   
 }
 
-/* .container-card:hover{
-   transform: rotate(10deg);
-} */
+@keyframes giroEntero{
+    from{
+        transform:perspective(500px) rotateY(0);
+
+    }to{
+        transform: perspective(500px) rotateY(360deg);
+    }
+}
+@keyframes levitarCard{
+    0%{
+        transform: translateY(30px);
+       
+    }
+    50%{
+        transform:translateY(0);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
 
 .container-bbva{
     width: 90%;
